@@ -6,13 +6,15 @@
     "configurations": [
         {
             "name": "Launch Program",
-            "program": "${workspaceFolder}/while-loop.js",
+            "program": "${file}/app.js",
             "request": "launch",
             "skipFiles": [
                 "<node_internals>/**"
             ],
             "type": "node"
         },
+        
+        
         {
             "name": "Attach",
             "port": 9229,
@@ -23,13 +25,13 @@
             "type": "node"
         },
         {
-            "type": "pwa-node",
+            "type": "node",
             "request": "launch",
             "name": "Launch Program",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\loop\\while-loop.js"
+            "program": "${file}"
         }
     ]
 }
